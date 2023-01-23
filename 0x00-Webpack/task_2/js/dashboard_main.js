@@ -1,4 +1,3 @@
-
 'use strict';
 import '../css/main.css';
 const $ = require('jquery');
@@ -11,10 +10,10 @@ $('body').append('<p id="count"></p>');
 $('body').append('<p>Copyright - Holberton School</p>');
 
 const updateCounter = () => {
-  let clicks = $('#count').html() || 0;
+  let times = $('#count').html() || 0;
   $('button').on('click', () => {
-    clicks++;
-    $('#count').html(`${clicks} clicks on the button`);
+    times++;
+    $('#count').html(`${times} clicks on the button`);
   });
 };
 

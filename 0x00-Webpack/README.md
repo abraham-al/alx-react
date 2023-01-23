@@ -1,25 +1,32 @@
-# 0x00. Webpack
+# 0x01. Webpack
+:open_file_folder: Specializations - Web Stack programming ― React  
+:bust_in_silhouette: By Johann Kerbrat, Engineering Manager at Uber Works  
+:copyright: **[Holberton School](https://www.holbertonschool.com/)**  
+:bookmark: asset compilation | entry points | javascript | loaders | output | webpack plugins
 
-# Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Resources
+### Read or watch:
+* [Webpack documentation](https://webpack.js.org/concepts/)
+* [Webpack beginner guide](https://www.sitepoint.com/webpack-beginner-guide/)
+* [npm-package.json](https://docs.npmjs.com/cli/v6/configuring-npm/package-json)
 
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
+### General
+* How to setup Webpack for a basic project
+* Entry points, output, and loaders
+* How to add plugins
+* How to split your code into chunks
+* How to setup a dev server
 
-How to setup Webpack for a basic project
+## Requirements
+* A ```README.md``` file.
 
-Entry points, output, and loaders
+## Tasks
+* [x] 0. Basic setup
+* [x] 1. Learning how to use Webpack with a config file
+* [x] 2. Adding CSS & Images
+* [x] 3. Dev servers, modules, and tree shaking
 
-How to add plugins
-
-How to split your code into chunks
-
-How to setup a dev server
-
-# Requirements
-
-All of your code will be executed on Ubuntu 18.04 LTS using Node 12.x.x
-
-Allowed editors: vi, vim, emacs, Visual Studio Code
-
-All of your files should end with a new line
-
-A README.md file at the root of the folder of the project is mandatory
+## Software engineer
+[Javier Andrés Garzón Patarroyo](https://www.javierandresgp.com)
